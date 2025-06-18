@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'miku-blue':'#86cecb',
+        'miku-teal':'#137a7f',
       },
     },
   },
