@@ -7,7 +7,7 @@
             <div className="flex justify-between items-center h-16">
                 <a href="#home" className="font-bold text-xl text-black">
                     {""}
-                    bdcruz<span className="text-blue-500">727</span> {""}
+                    wysi<span className="text-blue-500">727</span> {""}
                 </a>
 
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden">
