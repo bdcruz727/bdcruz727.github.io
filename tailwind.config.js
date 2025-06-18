@@ -6,9 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        quicksand: ['Quicksand', 'sans-serif'],
+      },
       colors: {
         'miku-blue':'#86cecb',
-        'miku-teal':'#137a7f',
+        'miku-teal':'#39c5bb',
+        'miku-purple':'#6e748f',
+        'miku-gray':'#2e2e3a',
+        'miku-sakura':'#f9a8d4',
+
       },
     },
   },

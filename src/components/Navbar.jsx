@@ -5,7 +5,7 @@
     <nav className="fixed top-0 w-full z-40 backdrop-blur-lg border-b border-white/10 shadow-lg">
         <div className="max-w-5xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
-                <a href="#home" className="font-bold text-xl text-black">
+                <a href="#home" className="font-bold text-xl text-miku-black">
                     {""}
                     WYSI<span className="text-blue-500">727</span> {""}
                 </a>

@@ -3,11 +3,21 @@
     return (
     <section id="home" className="min-h-screen flex items-center justify-center relative">
         <div className="text-center z-10 px-4">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-miku-teal to-miku-blue leading-right bg-clip-text py-2 text-transparent ">
-                Hello! I'm Bryan
+            <h1 className="font-quicksand text-5xl md:text-7xl text-miku-gray">
+                Bryan Dela Cruz
             </h1>
 
-            
+            <p className="font-quicksand text-miku-purple text-lg mb-8 max-w-xxl mx-auto">
+                <br></br>
+                Hello, I'm Bryan!
+                <br></br>
+                I am a second year student at <span className="font-bold text-miku-gray">Simon Fraser University.</span>
+                <br></br>
+                I love learning about <span className="font-bold text-miku-gray">Computers, Mathematics,</span> and <span className="font-bold text-miku-gray">Philosophy!</span>
+                <br></br>
+                
+
+            </p>
 
         </div>
 
