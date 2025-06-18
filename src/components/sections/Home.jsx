@@ -16,8 +16,18 @@
                 I love learning about <span className="font-bold text-miku-gray">Computers, Mathematics,</span> and <span className="font-bold text-miku-gray">Philosophy!</span>
                 <br></br>
                 
-
             </p>
+            <div className="flex justify-center space-x-4">
+                <a href="#projects" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
+                 hover:-translate-y-0.5">
+                    My Projects
+                </a>
+
+                 <a href="#contact" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
+                 hover:-translate-y-0.5">
+                    Contact Me!
+                </a>
+            </div>
 
         </div>
 
