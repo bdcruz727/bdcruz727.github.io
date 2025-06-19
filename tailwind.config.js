@@ -17,6 +17,7 @@ export default {
         'miku-sakura':'#f9a8d4',
         'miku-lightblue':'#d4f2ef',
         'osu-pink':'#FF8EE6',
+        'miku-black':'#1a1a1a'
       },
     },
   },
