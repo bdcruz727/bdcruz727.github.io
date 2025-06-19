@@ -20,7 +20,7 @@ export const About = () => {
     return <section id="about" className=" bg-gradient-to-b from-miku-lightblue to-miku-blue min-h-screen flex items-center justify-center py-20">
 
             <div className="flex justify-between">
-                <img src="/images/image2.png" alt="A picture of me!" className="w-96 h-96 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal hover:-translate-y-1 transition-all">
+                <img src="/images/image2.png" alt="A picture of me!" className="w-80 h-80 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal hover:-translate-y-1 hover:w-96 hover:h-96 transition-all">
                 </img>
 
             </div>
@@ -31,14 +31,19 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition all">
                     <p className="text-miku-gray mb-6 ">
-                        Aspiring developer with ambitious dreams and ideas. Always eager to expand skill set through learning and projects. 
+                        Aspiring developer with ambitious dreams and ideas. Always eager to expand skill set through projects, and open to learning all kinds of new concepts!
+                        <br></br>
+                        <br></br>
+                        I enjoy playing video games, volleyball, soccer, and badminton, as well as spending time with my adorable dog.
+
+                        
                     </p>
                 <div/>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
-                            Frontend
+                            Frontend Skills
                             </h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((tech, key) => (
@@ -54,7 +59,7 @@ export const About = () => {
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">
-                            Backend
+                            Backend Skills
                         </h3>
                         <div className="flex flex-wrap gap-2">
                             {backendSkills.map((tech, key) => (
@@ -71,14 +76,14 @@ export const About = () => {
                 </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition all">
                                 <h3 className="text-xl font-bold mb-4">
                                     Education
                                 </h3>
-                                <ul>
+                                <ul className="list-disc list-inside">
                                     <li>
-                                        <strong> BSci in Computing Science </strong> - Simon Fraser University (2023-TBD)
+                                        <strong> BSci in Computing Science </strong> - Simon Fraser University (2023-2027)
                                     </li>
 
                                     <li>
