@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 export const About = () => {
 
     const frontendSkills = [
@@ -18,11 +19,24 @@ export const About = () => {
 
     return <section id="about" className=" bg-gradient-to-b from-miku-lightblue to-miku-blue min-h-screen flex items-center justify-center py-20">
 
-            <div className="flex justify-between">
-                <img src="/images/image2.png" alt="A picture of me!" className="w-80 h-80 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal hover:-translate-y-1 hover:w-96 hover:h-96 transition-all">
-                </img>
+        <div className="flex flex-col items-center justify-start ml-32 mr-12">
+            <img src="/images/image2.png" alt="A picture of me!"
+            className="w-96 h-96 object-cover rounded-full shadow-lg border-4 border-miku-teal hover:-translate-y-1 transition-all">
+            </img>
 
+            <div className="flex space-x-4 mt-4 text-3xl text-miku-gray">
+                <a href="https://github.com/bdcruz727" target="_blank" className="hover:text-black hover:-translate-y-1 transition-all">
+                <FaGithub />
+                </a>
+                <a href="https://www.linkedin.com/in/bryan-dela-cruz-b190132b7/" target="_blank" className="hover:text-blue-600 hover:-translate-y-1 transition-all">
+                <FaLinkedin />
+                </a>
+                <a href="https://www.youtube.com/@bdcz" target="_blank" className="hover:text-red-500 hover:-translate-y-1 transition-all">
+                <FaYoutube />
+                </a>
             </div>
+        </div>
+            
 
             <div className="max-w-3xl mx-auto px-4">
                 <h2 className="text-5xl font-bold text-miku-gray text-center">
@@ -30,10 +44,13 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition all">
                     <p className="text-miku-gray mb-6 ">
-                        Aspiring developer with ambitious dreams and ideas. Always eager to expand skill set through projects, and open to learning all kinds of new concepts!
+                        Aspiring developer with ambitious dreams and ideas. Always eager to expand skill set through projects, and looks forward to learning all new kinds of concepts!
                         <br></br>
                         <br></br>
-                        I enjoy playing video games, soccer, and badminton, watching hockey, as well as spending time with my adorable dog.
+                        I enjoy playing video games, soccer, and badminton, as well as spending time with my adorable dog.
+                        <br></br>
+                        <br></br>
+                        On the side, I love watching hockey, practicing piano and guitar, as well as hone my video editing/production skills.
 
                         
                     </p>
