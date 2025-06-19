@@ -18,18 +18,18 @@
                 <span className="font-bold text-miku-gray">Thank you for visiting!</span>
             </p>
             <div className="flex justify-center space-x-4">
-                <a href="#about" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
-                 hover:-translate-y-0.5">
+                <a href="#about" className="bg-miku-sakura/40 text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
+                 hover:-translate-y-0.5 hover:bg-miku-sakura">
                      About Me!
                 </a>
 
-                <a href="#projects" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
-                 hover:-translate-y-0.5">
+                <a href="#projects" className="bg-miku-sakura/40 text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
+                 hover:-translate-y-0.5 hover:bg-miku-sakura">
                     My Projects!
                 </a>
 
-                 <a href="#contact" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
-                 hover:-translate-y-0.5">
+                 <a href="#contact" className="bg-miku-sakura/40 text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
+                 hover:-translate-y-0.5 hover:bg-miku-sakura">
                     Contact Me!
                 </a>
             </div>
