@@ -20,7 +20,7 @@
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
-                    <a href="#about" className="font-bold hover:text-miku-blue transition-colors">
+                    <a href="#about" className="font-bold hover:text-miku-blue transition-colors cursor-pointer">
                         {""}
                         About
                         {""}
