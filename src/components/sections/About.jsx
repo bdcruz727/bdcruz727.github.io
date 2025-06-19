@@ -20,7 +20,7 @@ export const About = () => {
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
 
             <div className="flex justify-between">
-                <img src="/public/images/image1.png" alt="A picture of me!" className="w-96 h-96 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal">
+                <img src="/images/image1.png" alt="A picture of me!" className="w-96 h-96 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal">
                 </img>
 
             </div>
