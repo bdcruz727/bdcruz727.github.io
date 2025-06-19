@@ -6,7 +6,8 @@ export const About = () => {
         "CSS", 
         "TailwindCSS", 
         "JavaScript",
-        "Godot"
+        "Godot",
+        "Scratch"
     ]
 
     const backendSkills = [
@@ -14,17 +15,23 @@ export const About = () => {
         "C",
         "C++",
         "C#",
-        "Scratch"
     ]
 
     return <section id="about" className="min-h-screen flex items-center justify-center py-20">
+
+            <div className="flex justify-between">
+                <img src="/public/images/image1.png" alt="A picture of me!" className="w-96 h-96 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal">
+                </img>
+
+            </div>
+
             <div className="max-w-3xl mx-auto px-4">
                 <h2 className="text-3xl font-bold text-miku-gray text-center">
                 About Me
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition all">
                     <p className="text-miku-gray mb-6 ">
-                        Aspiring developer with ambitious dreams and ideas. Passionate about design, 
+                        Aspiring developer with ambitious dreams and ideas. Always eager to expand skill set through learning and projects. 
                     </p>
                 <div/>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -72,6 +79,10 @@ export const About = () => {
                                 <ul>
                                     <li>
                                         <strong> BSci in Computing Science </strong> - Simon Fraser University (2023-TBD)
+                                    </li>
+
+                                    <li>
+                                        <strong>Dogwood Diploma</strong> - Delta Secondary School (2018-2023)
                                     </li>
 
                                 </ul>
