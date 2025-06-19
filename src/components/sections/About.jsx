@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube} from "react-icons/fa";
+import { SiOsu } from 'react-icons/si';
 export const About = () => {
 
     const frontendSkills = [
@@ -33,6 +34,9 @@ export const About = () => {
                 </a>
                 <a href="https://www.youtube.com/@bdcz" target="_blank" className="hover:text-red-500 hover:-translate-y-1 transition-all">
                 <FaYoutube />
+                </a>
+                <a href="https://osu.ppy.sh/users/9507410" target="_blank" className="hover:text-osu-pink hover:-translate-y-1 transition-all">
+                <SiOsu />
                 </a>
             </div>
         </div>
