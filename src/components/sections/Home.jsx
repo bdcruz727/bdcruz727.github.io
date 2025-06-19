@@ -9,18 +9,23 @@
 
             <p className="font-quicksand text-miku-purple text-lg mb-8 max-w-xxl mx-auto">
                 <br></br>
-                Hello, I'm Bryan!
+                Hello, I'm <span className="font-bold text-miku-gray">Bryan!</span>
                 <br></br>
                 I am a second year student at <span className="font-bold text-miku-gray">Simon Fraser University.</span>
                 <br></br>
                 I love learning about <span className="font-bold text-miku-gray">Computers, Mathematics,</span> and <span className="font-bold text-miku-gray">Philosophy!</span>
                 <br></br>
-                
+                <span className="font-bold text-miku-gray">Thank you for visiting!</span>
             </p>
             <div className="flex justify-center space-x-4">
+                <a href="#about" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
+                 hover:-translate-y-0.5">
+                     About Me!
+                </a>
+
                 <a href="#projects" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
                  hover:-translate-y-0.5">
-                    My Projects
+                    My Projects!
                 </a>
 
                  <a href="#contact" className="bg-miku-sakura text-miku-gray py-3 px-6 rounded font-bold transition relative overflow-hidden
