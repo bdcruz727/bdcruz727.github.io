@@ -17,10 +17,10 @@ export const About = () => {
         "C#",
     ]
 
-    return <section id="about" className="min-h-screen flex items-center justify-center py-20">
+    return <section id="about" className=" bg-gradient-to-b from-miku-lightblue to-miku-blue min-h-screen flex items-center justify-center py-20">
 
             <div className="flex justify-between">
-                <img src="/images/image1.png" alt="A picture of me!" className="w-96 h-96 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal">
+                <img src="/images/image2.png" alt="A picture of me!" className="w-96 h-96 object-cover rounded-full shadow-lg ml-32 border border-4 border-miku-teal hover:-translate-y-1 transition-all">
                 </img>
 
             </div>
@@ -42,7 +42,7 @@ export const About = () => {
                             </h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((tech, key) => (
-                                <span key={key} className="font-bold bg-miku-teal/20 text-miku-gray py-1 px-3 rounded-full text-sm hover:bg-miku-teal/40 transition">
+                                <span key={key} className="font-bold bg-miku-teal/20 text-miku-gray py-1 px-3 rounded-full text-sm hover:bg-miku-teal/70 transition">
                                         {tech}
                                 </span> 
                                 ))
@@ -58,7 +58,7 @@ export const About = () => {
                         </h3>
                         <div className="flex flex-wrap gap-2">
                             {backendSkills.map((tech, key) => (
-                               <span key={key} className="font-bold bg-miku-sakura/20 text-miku-gray py-1 px-3 rounded-full text-sm hover:bg-miku-sakura/40 transition">
+                               <span key={key} className="font-bold bg-miku-sakura/30 text-miku-gray py-1 px-3 rounded-full text-sm hover:bg-miku-sakura/70 transition">
                                     {tech}
                                </span> 
                             ))
