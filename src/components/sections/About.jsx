@@ -6,8 +6,7 @@ export const About = () => {
         "CSS", 
         "TailwindCSS", 
         "JavaScript",
-        "Godot",
-        "Scratch"
+        "Godot"
     ]
 
     const backendSkills = [
@@ -26,7 +25,7 @@ export const About = () => {
             </div>
 
             <div className="max-w-3xl mx-auto px-4">
-                <h2 className="text-3xl font-bold text-miku-gray text-center">
+                <h2 className="text-5xl font-bold text-miku-gray text-center">
                 About Me
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition all">
@@ -34,7 +33,7 @@ export const About = () => {
                         Aspiring developer with ambitious dreams and ideas. Always eager to expand skill set through projects, and open to learning all kinds of new concepts!
                         <br></br>
                         <br></br>
-                        I enjoy playing video games, volleyball, soccer, and badminton, as well as spending time with my adorable dog.
+                        I enjoy playing video games, soccer, and badminton, watching hockey, as well as spending time with my adorable dog.
 
                         
                     </p>
@@ -42,7 +41,7 @@ export const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">
+                            <h3 className="text-2xl font-bold mb-4">
                             Frontend Skills
                             </h3>
                             <div className="flex flex-wrap gap-2">
@@ -58,7 +57,7 @@ export const About = () => {
                         </div>
 
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">
+                        <h3 className="text-2xl font-bold mb-4">
                             Backend Skills
                         </h3>
                         <div className="flex flex-wrap gap-2">
@@ -78,12 +77,12 @@ export const About = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition all">
-                                <h3 className="text-xl font-bold mb-4">
+                                <h3 className="text-2xl font-bold mb-4">
                                     Education
                                 </h3>
                                 <ul className="list-disc list-inside">
                                     <li>
-                                        <strong> BSci in Computing Science </strong> - Simon Fraser University (2023-2027)
+                                        <strong> BSc. in Computing Science </strong> - Simon Fraser University (2023-2027)
                                     </li>
 
                                     <li>

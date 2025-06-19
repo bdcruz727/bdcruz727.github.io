@@ -11,7 +11,7 @@
                 </a>
 
                 <div className="hidden md:flex items-center space-x-8">
-                    <a href="#home" className="font-bold hover:text-miku-blue transition-colors">
+                    <a href="#home" className="font-bold hover:text-miku-purple transition-colors">
                         {""}
                         Home
                         {""}
@@ -20,7 +20,7 @@
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
-                    <a href="#about" className="font-bold hover:text-miku-blue transition-colors cursor-pointer">
+                    <a href="#about" className="font-bold hover:text-miku-purple transition-colors">
                         {""}
                         About
                         {""}
@@ -29,7 +29,7 @@
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
-                    <a href="#projects" className="font-bold hover:text-miku-blue transition-colors">
+                    <a href="#projects" className="font-bold hover:text-miku-purple transition-colors">
                         {""}
                         Projects
                         {""}
@@ -38,7 +38,7 @@
                 </div>
 
                  <div className="hidden md:flex items-center space-x-8">
-                    <a href="#contact" className="font-bold hover:text-miku-blue transition-colors">
+                    <a href="#contact" className="font-bold hover:text-miku-purple transition-colors">
                         {""}
                         Contact
                         {""}
