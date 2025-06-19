@@ -6,7 +6,7 @@ export const About = () => {
         "CSS", 
         "TailwindCSS", 
         "JavaScript",
-        "Godot"
+        "GDScript"
     ]
 
     const backendSkills = [
